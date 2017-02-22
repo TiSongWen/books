@@ -1,4 +1,4 @@
-package decorator;
+package decorator.version1;
 
 /**
  * 调料装饰后的饮料

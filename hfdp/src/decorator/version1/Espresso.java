@@ -1,4 +1,4 @@
-package decorator;
+package decorator.version1;
 
 /**
  * 浓缩咖啡

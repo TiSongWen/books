@@ -1,4 +1,4 @@
-package decorator;
+package decorator.version1;
 
 /**
  * Created by tisong on 1/18/17.
