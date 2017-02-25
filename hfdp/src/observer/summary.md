@@ -51,7 +51,7 @@ public Oberser(Subject subject) {
     * pull
 
 
-# 额外篇 Tomcat中的观察者模式
+## 额外篇 Tomcat中的观察者模式
 
 Lifecycle --- LifecycleListener --- LifecycleEvent
 
