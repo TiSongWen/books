@@ -28,19 +28,9 @@ public class FindInPartiallySortedMatrix {
             return false;
         }
 
-        if (array[row][column] == number) {
-            return true;
-        }
-
-        if (array[row][column] > number) {
-            return findNumber(array, row, column-1, number, rows);
-        }
-
-        if (array[row][column] < number) {
-            return findNumber(array, row+1, column, number, rows);
-        }
-
-        return false;
+        return (array[row][column] == number) ?  true
+                : ( array[row][column] > number ? findNumber(array, row, column-1, number, rows)
+                    : findNumber(array, row+1, column, number, rows));
 
     }
 
@@ -49,6 +39,6 @@ public class FindInPartiallySortedMatrix {
 
         int[][] array = {{1,2,8,9}, {2,4,8,12}, {4,7,10,13}, {6,8,11,15}};
 
-        System.out.println(new FindInPartiallySortedMatrix().findNumber(array, 4, 4, 5));
+        System.out.println(new FindInPartiallySortedMatrix().findNumber(array, 4, 4, 16));
     }
 }
