@@ -1,5 +1,8 @@
 package chapter3;
 
+import java.util.HashMap;
+import java.util.Hashtable;
+
 /**
  * Created by tisong on 3/16/17.
  */
@@ -67,6 +70,8 @@ public class Offer26 {
     }
 
     public static void main(String[] args) {
+
+        Object object = new Object();
 
         BinaryTreeNode root = new BinaryTreeNode(10, null, null);
 
