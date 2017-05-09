@@ -8,7 +8,12 @@ import java.util.Set;
 import java.util.UUID;
 
 /**
- * Created by tisong on 4/22/17.
+ * Cookies :
+ *      1. 签名cookie
+ *      2. 令牌cookie
+ * Redis 功能
+ *      1. 保存cookie ()
+ * login:token - user name
  */
 public class LoginCookies {
 
